@@ -1,0 +1,880 @@
+The Sheffield Corpus of Chinese
+(SCC)
+(First Edition)
+2007
+Xiaoling Hu and Jamie McLaughlin
+University of Sheffield
+
+
+
+
+The Sheffield Corpus of Chinese
+
+
+
+Copyright of the University of Sheffield 2007@
+
+Copyright in the transcription, metadata, and design and content of
+webpages is owned by the University of Sheffield
+
+
+
+
+
+
+
+
+
+Table of contents
+
+
+Introduction to SCC
+The structure and organisation of the corpus
+Chronological framework
+Text types and genres
+Text size
+Mark up scheme
+The current tag set
+Search and analysis tool
+Contents of the corpus
+Chronological distribution
+Distribution of text types and genres
+Text classification codes
+Texts and file names
+Search and analysis tool
+Overview of the possibilities of the search tool
+Methodology of the search tool
+Using the search tool
+Search results display
+Next phase of expansion
+Administration and registration
+Copyright
+Information about the corpus
+Contact us
+References
+
+
+
+
+
+
+Introduction to SCC
+
+The Sheffield Corpus of Chinese (SCC) is a diachronic corpus consisting of a wide range of fully marked-up Chinese historical texts together with an integral search and analysis tool. The texts are organised in different types and genres and in different time periods. The long-term aim of SCC is to provide an extensive digital resource to facilitate study of the history and development of the Chinese language (Thomas and Short, 1996; Biber et. al., 1998; Reppen et. al., 2002).
+Studies on the historical syntax of Chinese often omit a thorough diachronic investigation across sections of data from different periods of Chinese history that would enable a better understanding of historical linguistics and grammaticalisation processes. The main reason for this omission is the lack of suitable and readily available corpora of historical Chinese texts, let alone corpora of fully marked-up Chinese texts for linguistic analysis.
+Since the 1990s, fast-growing computing technology has stimulated compilation of digital resources such as the Academia Sinica Ancient Chinese Corpus (ASACC, http://corpus.ling.sinica.edu.tw/) at the Institute of Linguistics in Taiwan and the Peking University Corpus (PUC, http://ccl.pku.edu.cn.ccl_corpus.jsearch.index.jsp?dir=gudai) at the Centre of Chinese Linguistics in Beijing. However, like the Database of Traditional Chinese Texts in the Chinese University of Hong Kong and the Full-text Databases in the Heidelberg Institute of Chinese Studies, the ASACC and the PUC are mainly composed of digitalised versions of old Chinese texts, that are neither marked-up nor organised according to text types or genres. These corpora are not structured to facilitate detailed diachronic linguistic analysis and their content does not represent the wide range of genres of writing found in different historical periods. For the small sub-corpus of the ASACC with tagged texts consisting of six novels of Early Mandarin Chinese and some plays and dramas from the Yuan Dynasty (1260-1368), few English facilities are provided and users need a good knowledge of terms and concepts of traditional Chinese grammar.
+There are other corpora of Chinese texts available such as the Academia Sinica Balanced Corpus of Modern Chinese (Sinica Corpus, http://www.sinica.edu.tw/SinicaCorpus) and the Lancaster Corpus of Mandarin Chinese (LCMC, http://bowland-files.lancs.ac.uk/corplang/lcmc/). Both of them are synchronic corpora confined to Contemporary Chinese texts produced in 1963 for the former and from 1989-1993 for the latter.
+The development of a diachronic corpus of systematically organised marked-up Chinese texts such as SCC will, therefore, facilitate a wide range of investigations into language use. Thus, as the number of texts increases, SCC, with its integral search and analysis tool, will be a valuable research facility for scholars and researchers of diachronic studies of the history and development of the Chinese language and will facilitate expansion of the scope of earlier investigations in Chinese historical linguistics.
+Now we have just completed the first phase of expansion of SCC. The aim of this expansion stage, following the initial pilot study funded by the British Academy (Grant Ref: SG37397), was to add samples of text types from each of the seven time periods covered in SCC and each of the sixteen genres, and to test and refine the initial markup scheme and the integrated search and analysis tool developed in the context of XML (eXtensible Markup Language). At this stage the corpus is large enough to support serious research and it has already been used in our study of the syntactic positions of prepositional phrases in the history of Chinese (see Hu, McLaughlin and Williamson, 2007) but text categories are not evenly and appropriately distributed in all the time periods covered in SCC. The crucial and complex question of balancing text samples in different genres and time periods will be a dominant aspect of the second expansion phase.
+“The Sheffield Corpus of Chinese is a valuable corpus allowing analysis of different generations of Chinese language [27]”. Alastair Dunning in “The Tasks of the AHDS: Ten Years On”, Ariadne 48, July 2006, http://www.ariadne.ac.uk/issue48/dunning/.
+We are grateful to the British Academy for funding the pilot project. We are also grateful to the Social Science Council of the University of Sheffield for funding and the Humanities Research Institute of the University for supporting the first expansion phase. Without their help, the corpus would not have been built and developed so far.
+
+The structure and organisation of the corpus
+
+Chronological framework
+The main chronological framework of the SCC is based on Peyraube (1996), namely Archaic Chinese (AC, 12th century bc-ad 220), Medieval Chinese (MedC, 220-1368) and Modern Chinese (ModC, 1368-1911). There are two reasons for this choice. One is that it is based on syntactic criteria and the other is that it has taken into account the studies of many sinologists such as Wang (1958), Chou (1962), and Dobson (1959, 1962). We have extended Peyraube’s Modern Chinese period to 1911 because it was the year when the last dynasty in that period ended. Within this basic framework (Hu, Williamson and McLaughlin, 2005), SCC is further divided into seven time periods based largely on dynasties as illustrated in Table 1.
+Table 1	Chronological framework of SCC
+Sheffield Corpus of Chinese
+Archaic Chinese
+(AC, 12th- ad220)
+Medieval Chinese
+(MedC, 220-1368)
+Modern Chinese
+(MC, 1368-1911)
+Pre-Qin
+Western Han & Eastern Han
+Wei, Jin & Southern-Northern Dynasties
+Sui, Tang & Five Dynasties
+Song & Yuan
+Ming
+Qing
+12th-206bc
+206bc-ad220
+220-581
+581-979
+860-1368
+1368-1644
+1644-1911
+
+Text types / genres
+The texts selected for the first expansion stage of SCC represent a wide range of kinds of writing found in the different time periods and are organised in two major text types – literary and non-literary. Both types contain texts of different genres. The literary type contains works on drama/play, fiction (general, historical, romantic and mythological), folklore and poetry and the non-literary type on biographies/essays, government, history, legal works, medicine, warfare, philosophy, religion, science/technology and travelogue. The genres, the genre codes and the text types in SCC at the end of the first expansion phase are given in Table 2. At the end of the first expansion phase, the texts of literary type contain 200,040 character words (46.2%) and the texts of non-literary type contain 232,630 character words (53.8%).
+Table 2 Genres, genre codes and text types in the current SCC
+Code
+Genres
+Text types
+A
+Biographies/Essays
+Non-literary
+B
+Drama/Play
+Literary
+C
+Fiction (General)
+Literary
+D
+Fiction (Historical)
+Literary
+E
+Fiction (Mythological)
+Literary
+F
+Fiction (Romantic)
+Literary
+G
+Folklore
+Literary
+H
+Government
+Non-literary
+I
+History
+Non-literary
+J
+Legal works
+Non-literary
+K
+Medicine
+Non-literary
+L
+Philosophy
+Non-literary
+M
+Poetry
+Literary
+N
+Religion
+Non-literary
+O
+Science/Technology
+Non-literary
+P
+Travelogue
+Non-literary
+Q
+Warfare
+Non-literary
+
+Text size
+We decided, for three reasons, to use from the outset texts of whole chapters rather than uniformly sized samples of texts. Firstly, we agree with Sinclair (1991) that theoretically, a corpus consisting of whole documents is more likely to be open to a wider range of linguistic studies than a collection of short samples. Secondly, it is unlikely that linguistic features of a text are distributed evenly throughout and therefore longer texts are more representative. Finally, thanks to the ever-increasing computer storage and processing power, it is much easier to include whole documents. Similar considerations influenced, for example, the Helsinki Corpus of English Texts (750-1700) and the ARCHER (A Representative Corpus of Historical English Registers, 1650-present) Corpus.
+As we use natural chapters to sample historical texts (Hu, Williamson and McLaughlin, 2005), there are differences in the lengths of text samples. For instance, a chapter from a biographical essay Taiping Guang Ji (Extensive Records of the Taiping Era) by Li Fang et al. from the Five Dynasties (907-979) contains 3,370 characters whereas a chapter from a general fiction Yu Shi Ming Yan (Words to Instruct the World) by Feng Menglong contains 20,830 characters. SCC as established at the end of this expansion phase contains over 430,000 characters in 40 text samples.
+
+Mark up scheme
+The mark up scheme for SCC has been developed in the context of XML (eXtensible Markup Language). XML is a well-supported open standard, ensuring compatibility and longevity for our data. Our mark up process has two levels: structural and grammatical. The structural mark up process is done automatically, using a simple program we have written in Java. This program identifies the punctuation marks ‘，’, ‘。’, ‘：’, ‘？‘, and ‘！’ and surrounds them with an ‘<s>’ tag to indicate sections of text which are then, for convenience, stored on different lines. Another simple Java program then converts these markers into opening and closing ‘<p>’ tags.
+The document header of a text contains the following:
+<?xml version=”1.0” encoding=”UTF-8”?>
+<SCC>
+<meta>
+<sub_corpus>sub-corpus name and years</sub_corpus>
+<time_period>time period name and years</time_period>
+<dynasty>dynasty name and years</dynasty>
+<text_type>literary or non-literary</text_type>
+<genre>genre name</genre>
+<register>written or spoken-like</register>
+<text_title>Chinese character name</text_title>
+<English_title>parallel English translation</English_title>
+<author_editor>author* name</author_editor>
+<author_editor_pinyin>character pinyin</author_editor_pinyin>
+<dates>years</dates>
+<gender>male or female</gender>
+<content>chapter numbers</content>
+<word_count>number of characters</word_count>
+</meta>
+(* Author is used to include ‘Editor’ and ‘Translator’.)
+For example:
+<?xml version=”1.0” encoding=”UTF-8”?>
+<SCC>
+<meta>
+<sub_corpus>Medieval Chinese (220-1368)</sub_corpus>
+<time_period>Song and Yuan (960-1368)</time_period>
+<dynasty>Song (960-1279)</dynasty>
+<text_type>Non_literary</text_type>
+<genre>Science_technology</genre>
+<register>Written</register>
+<text_title>夢溪筆談</text_title>
+<English_title>Notes Written at Mengxi</English_title>
+<author_editor>沈括</author_editor>
+<author_editor_pinyin>Shen_Kuo</author_editor_pinyin>
+<dates>1029-1093</dates>
+<gender>Male</gender>
+<content>Chapters1-3</content>
+<word_count>10,320</word_count>
+</meta>
+The grammatical mark up process has an automatic stage followed by manual editing. The automatic process uses a lexicon that contains all previously encountered character words and a set of interacting general grammatical rules and specific examples. We are aware of segmentation tools such as the Chinese Lexical Analysis System (CLAS) developed at the Institute of Computing Technology, Chinese Academy of Sciences (see Zhang et. al., 2002). The system is based on a core lexicon which incorporates a frequency dictionary of 80,000 words together with part-of-speech information and modules for word segmentation, part-of-speech tagging and unknown word recognition. However this system was developed using contemporary Chinese new texts and as McEnery and Xiao (2003) point out, it performs poorly on some genres, e.g. martial arts texts, and so even for their synchronic corpus the annotation of texts in all but few genres had to be manually corrected. We decided that for the SCC diachronic corpus, with its very wide range of genres and time periods, the CLAS system was inappropriate.
+For SCC we decided to build a lexicon and an annotation system cumulatively from scratch using experience gained from the successive texts processed. The annotation process has an automatic stage (based on the corpus lexicon and grammatical rules) followed by manual editing. The automatic process for each new text uses the current lexicon containing all previously encountered lexical items and the set of interacting grammatical rules and specific examples. These elements are cumulatively increased and refined as texts are added to the corpus. Unresolved multiple tags and untagged new lexical items at the end of the automatic stage are resolved by manual post-editing. New lexical items (tokens) encountered, as texts are part-of-speech tagged, are added to the current lexicon. At the end of the first expansion stage, the lexicon has over 35,000 entries. The annotation system has 18 basic word classes, 82 categories and 112 distinct tag labels (see Table 3).
+The SCC tagging system records the information for a given character in a brief format, for example,
+<category type=”type” pinyin=”pinyin”>character </category>, e.g.:
+<noun type = ‘common’ pinyin = “shengren”>聖人</noun>
+These two characters each have their individual tagging labels but when they occur in a bigger fragment, their respective tagging get automatically removed.
+We have not ruled out conversion from our proprietary scheme into a more widely used standard in the future, using an automated process based on XSLT (eXtensible Stylesheet Language Transformations). In particular, we feel that the Text Encoding Initiative (TEI) guidelines on Linguistic Segment Categories (See http://www.tei-c.org.uk/P5/Guidelines/AI.html#AILC) may prove to be appropriate.
+
+The current tag set
+The following is a brief description of the current SCC tag set used for word class annotation of the corpus. At the end of the first expansion stage, SCC contains 18 word classes with 82 categories and there are 112 tag labels as listed in Table 3.
+Table 3 Tag labels for the current SCC
+Tag label
+Word class
+Category
+AJA
+Adjective
+Non_predicate (e.g. 溜清, 噴香)
+AJB
+Adjective
+Non_predicate_AA (e.g. 薄薄, 蕩蕩)
+AJC
+Adjective
+Non_predicate_AAB (e.g. 黯黯然)
+AJD
+Adjective
+Non_predicate_AABB (e.g. 熟熟馴馴)
+AJE
+Adjective
+Non_predicate_ABAB (e.g. 筍條筍條)
+AJF
+Adjective
+Non_predicate_ABB (e.g. 酸蔭蔭)
+AVA
+Adverb
+general (e.g. 約莫, 直截)
+AVB
+Adverb
+AA (e.g. 常常, 往往)
+AVC
+Adverb
+negative (e.g. 未, 休)
+CJA
+Conjunction
+coordinating (e.g. 和, 但是)
+CJB
+Conjunction
+subordinating (e.g. 假若, 因為)
+CLA
+Classifier
+(e.g. 粒, 幅)
+EPA
+Expression
+direction (e.g. 庵北, 其西)
+EPB
+Expression
+formulaic (e.g. 端的, 不期)
+EPC
+Expression
+genitive_zhi_N (e.g. 之理, 之屬)
+EPD
+Expression
+genitive_zhi_suo_V (e.g. 之所恃)
+EPE
+Expression
+location (e.g. 廳外, 崖下)
+EPF
+Expression
+nominal (e.g. 吊孝的)
+EPG
+Expression
+order (e.g. 吸前)
+EPH
+Expression
+time (e.g. 嘉祐中, 慶曆中)
+FMA
+Functional_morpheme
+adverbial (e.g. 地)
+FMB
+Functional_morpheme
+aspect_durative (e.g. 着)
+FMC
+Functional_morpheme
+aspect_experiential (e.g. 過)
+FMD
+Functional_morpheme
+aspect_perfective (e.g. 了)
+FME
+Functional_morpheme
+causative (e.g. 使)
+FMF
+Functional_morpheme
+complement (e.g. 得)
+FMG
+Functional_morpheme
+emphatic (e.g. 所)
+FMH
+Functional_morpheme
+general (e.g. 聿)
+FMI
+Functional_morpheme
+genitive (e.g. 之)
+FMJ
+Functional_morpheme
+objective (e.g. 把)
+FMK
+Functional_morpheme
+passive (e.g. 見, 被)
+FML
+Functional_morpheme
+plural (e.g. 們)
+FMM
+Functional_morpheme
+relative (e.g. 的)
+IDA
+Idiom
+(e.g. 斐然成章)
+ITA
+Interjection
+(e.g. 嗚呼, 哎)
+LCA
+Localizer
+(e.g. 上, 后)
+NNA
+Noun
+common (e.g. 劍客, 糧食)
+NNB
+Noun
+AA (e.g. 根根, 人人)
+NNC
+Noun
+AAB (e.g. 三三行, 萬萬慈)
+NND
+Noun
+AABB (e.g. 般般件件)
+NNE
+Noun
+ABAB (e.g. 一對一對)
+NNF
+Noun
+ABAC (e.g. 僮男僮女)
+NNG
+Noun
+ABB (e.g. 一層層, 汗珠珠)
+NNH
+Noun
+ABCB (e.g. 千世萬世)
+NNI
+Noun
+honorific (e.g. 貴庚, 仙鄉)
+NNJ
+Noun
+proper (e.g. 黃巾)
+NNK
+Noun
+proper_dynasty_name (e.g. 春秋戰國)
+NNL
+Noun
+proper_person_name (e.g. 蘧伯玉)
+NNM
+Noun
+proper_place_name (e.g. 黃山)
+NNN
+Noun
+proper_title (e.g. 孫子兵法)
+NNO
+Noun
+proper_year_name (e.g. 天章)
+NMA
+Numeral
+cardinal (e.g. 十八, 千)
+NMB
+Numeral
+indefinite (e.g. 數十, 幾百)
+NMC
+Numeral
+ordinal (e.g. 第一, 第八)
+ONA
+Onomatopoeia
+AA (e.g. 哇哇, 嘻嘻)
+ONB
+Onomatopoeia
+AAA (e.g. 騰騰騰, 撒撒撒)
+ONC
+Onomatopoeia
+AABB (e.g. 隱隱轟轟)
+OND
+Onomatopoeia
+ABBC (e.g. 撲通通冬, 吉丁丁璫)
+ONE
+Onomatopoeia
+general (e.g. 耶櫓咿啞)
+PNA
+Pronoun
+demonstrative (e.g. 這, 其)
+PNB
+Pronoun
+honorific (e.g. 寡人, 在下)
+PNC
+Pronoun
+personal (e.g. 我們, 俺)
+PND
+Pronoun
+possessive (e.g. 我的, 厥)
+PNE
+Pronoun
+reciprocal (e.g. 彼此)
+PNF
+Pronoun
+reflexive (e.g. 自己)
+PPA
+Preposition
+(e.g. 據, 至於)
+PRA
+Particle
+tag (e.g. 吧, 乎)
+PTA
+Punctuation
+general_separating_mark (‘。’, ‘！’, ’ ？’, ‘，’, ‘：’)
+PTB
+Punctuation
+left_bracket (e.g.『, 《, or「)
+PTC
+Punctuation
+right_bracket (e.g. 』, 》, or 」)
+PTD
+Punctuation
+secondary_separating_mark (e.g. ‘·’, ‘、’)
+QWA
+Question_word
+general (e.g. 為何, 甚麽)
+QWB
+Question_word
+tag (e.g. 麼)
+UND
+Unidentified
+(e.g. □)
+VBA
+Verb
+general (e.g. 剮, 頂)
+VBB
+Verb
+AA (e.g. 演演, 走走)
+VBC
+Verb
+AAB (e.g. 散散心)
+VBD
+Verb
+AABB (e.g. 哭哭啼啼)
+VBE
+Verb
+ABAB (e.g. 接待接待)
+VBF
+Verb
+ABAC (e.g. 包長包短)
+VBG
+Verb
+ABB (e.g. 哭啼啼)
+VBH
+Verb
+ABCB (e.g. 手之舞之)
+VBI
+Verb
+bei_V (e.g. 被戮)
+VBJ
+Verb
+bu_V (e.g. 不宜)
+VBK
+Verb
+copular_shi (e.g. 是)
+VBL
+Verb
+copular_shi _negative (e.g. 不是)
+VBM
+Verb
+existential_you (e.g. 有)
+VBN
+Verb
+existential_you_negative (e.g. 未有)
+VBO
+Verb
+jian_V (e.g. 見信, 見教)
+VBP
+Verb
+modal_auxiliary (e.g. 必, 該)
+VBQ
+Verb
+modal_auxiliary_negative (e.g. 不必, 不該)
+VBR
+Verb
+reciprocal_xiang_V (e.g. 相會, 相辭)
+VBS
+Verb
+reflexive_zi_V (e.g. 自寬, 自縊)
+VBT
+Verb
+stative (e.g. 惆悵, 廣厚)
+VBU
+Verb
+stative_comparative (e.g. 更深)
+VBV
+Verb
+stative_superlative (e.g. 最早)
+VBW
+Verb
+suo_V (e.g. 所積, 所吟)
+VBX
+Verb
+V_bu_V (e.g. 念不念, 定不定)
+VBY
+Verb
+V_hua (e.g. 羽化)
+VBZ
+Verb
+V_lai (e.g. 宣來, 討來)
+VBAA
+Verb
+V_N (e.g. 守法, 聽話)
+VBBB
+Verb
+V_potential_bu_RVC* (e.g. 睡不穩)
+VBCC
+Verb
+V_potential_de_RVC (e.g. 躲得過)
+VBDD
+Verb
+V_qu (e.g. 消去, 拿去)
+VBEE
+Verb
+V_RVC (e.g. 學成, 生出)
+VBFF
+Verb
+V_V (e.g. 敘說, 思慮)
+VBGG
+Verb
+V_yi_V (e.g. 畫一畫, 嘗一嘗)
+VBHH
+Verb
+V_yu (e.g. 起於)
+VBII
+Verb
+V_zhi (e.g. 刑之)
+VBJJ
+Verb
+yi_V (e.g. 一訪, 一望)
+* RVC stands for the resultative verb complement.
+Search and analysis tool
+The current SCC website allows users to view the texts in the corpus in traditional Chinese. At the end of the first expansion phase, the integral search and analysis tool enables users to retrieve all occurrences of any specified sequence of characters or of any specified word classes or any combination of the two. Searches can be further restricted by sub-corpus, time period and genre. When a search is executed, the web interface returns with a list of all occurrences within their immediate textual context and frequency tables displaying the proportions of occurrences in each sub-corpus, time period and genre.
+
+Contents of the corpus
+
+Chronological distribution
+At the end of the first phase of expansion, the content distribution is: Archaic Chinese sub-corpus 109,670 characters, Middle Chinese sub-corpus 147,500 characters and Modern Chinese sub-corpus 175,500 characters. The distribution of marked-up texts by sub-corpora in the current SCC is given in Table 4.
+Table 4	Distribution of marked up texts in the current SCC
+Sub-corpus
+Time period
+Word count
+Proportion %
+AC
+Sub-total
+109,670
+25.3
+12th-206bc
+72,130
+16.7
+206bc-ad220
+37,540
+8.7
+MedC
+Sub-total
+147,500
+34.1
+220-581
+42,450
+9.8
+581-979
+40,740
+9.4
+960-1368
+64,310
+14.9
+MC
+Sub-total
+175,500
+40.6
+1368-1644
+130,240
+30.1
+1644-1911
+45,280
+10.5
+Total
+
+432,670
+100
+
+Distribution of text type and genre
+Table 5 shows the distribution of marked-up texts by seventeen text categories currently represented in the corpus. A brief introduction to the content of text categories is given below.
+Table 5	Distribution of marked-up texts by genre in the current SCC
+Code
+Text category/genre
+Word count
+Proportion %
+A
+Biographies/Essays
+47,620
+11.0
+B
+Drama/Play
+25,200
+5.8
+C
+Fiction (General)
+82,300
+19.0
+D
+Fiction (Historical)
+30,110
+7.0
+E
+Fiction (Mythological)
+33,650
+7.8
+F
+Fiction (Romantic)
+12,500
+2.9
+G
+Folklore
+10,990
+2.5
+H
+Government
+11,000
+2.5
+I
+History
+68,240
+15.8
+J
+Legal works
+10,380
+2.4
+K
+Medicine
+0
+0.0
+L
+Philosophy
+54,200
+12.5
+M
+Poetry
+5,310
+1.2
+N
+Religion
+6,510
+1.5
+O
+Science/Technology
+18,670
+4.3
+P
+Travelogue
+8,610
+2.0
+Q
+Warfare
+7,400
+1.7
+Total
+
+432,670
+100
+The category for biographies and essays includes Dunhuang Bianwen Ji (A Collection of Dunhuang Popular Narratives) which represents a popular form of narrative literature flourishing in the Tang Dynasty with alternate prose and rhymed parts for recitation and singing, often on Buddhist themes (Sun, 1996).
+In the fiction category, sample texts were selected from four sub-categories: general, historical, romantic and mythological. San Yan (Three Words) by Feng Menglong (1574-1646), a compiler of anthologies of popular literature in the Ming dynasty, contains collections of stories and is sampled in the general category. One chapter is selected from each of the three collections in Three Words: Yu Shi Ming Yan (Words to Instruct the World), Jing Shi Tong Yan (Words to Warn the World) and Xing Shi Heng Yan (Words to Awake the World). Historical fiction includes texts from San Guo Yan Yi (Romance of the Three Kingdoms) by Luo Guanzhong (1330-1400) which is the first historical novel written with chapters interwoven by the development of plots. We also included a sample chapter from Shui Hu Zhuan (Water Margin) by Shi Nai’an (1574-1645), one of the four most famous novels of the Ming Dynasty. Water Margin is recorded in a colloquial style compounded with oral conventions and descriptive passages in prose narrative (Hanan, 1981). As such it is very useful for the historical study of the vernacular of the language during that time period. Romantic fiction includes sample chapters from Hong Lou Meng (sometimes translated as A Dream of the Red Chamber) by Cao Xueqing (1715-1763), one of the great masterpieces of Chinese fiction. Mythological fiction includes Xi You Ji (A Journey to the West) by Wu Cheng’en (1500-1582), a novel that is regarded as representing the pinnacle of novels created in early Modern Chinese. Supernatural fiction such as Liao Zhao Zhi Yi (Strange Tales of Liao Zhai) by Pu Songlin (1640-1715) is an intermediate category and we decided to include it in the mythological fiction category.
+In the government category, we included sample texts from Zhen Guan Zheng Yao (Administrative Principles of Zhenguan Reign) by Wu Jing (670-749). In the history category there are sample texts from Shi Ji (Records of the Grand Historian) by Sima Qian (145?-90?), a Prefect of the Grand Scribes of the Han Dynasty and also known as the Father of Chinese history. This book not only records basic annals of dynasties or rulers, chronological tables and treatises among other things but also serves as a model for subsequent Chinese dynastic histories and is considered a representative text of late Archaic Chinese. San Guo Zhi (Chronicles of the Three Kingdoms) by Chen Shou (233-279), the official and authoritative historical text on the Three Kingdoms period of China, is representative of early Medieval Chinese texts. As Chronicles of the Three Kingdoms contains three volumes giving smaller historical accounts of three rival states Wei, Shu and Wu, we selected one chapter from each of the three volumes.
+In the category for legal works, the text sample is from Shang Jun Shu (The Book of Lord Shang) by Shang Yang (390 bc-338 bc). The Book of Lord Shang consists of a collection of the works written in the Legalist School represented by Shang Yang in the Warring States period (475 bc-221 bc) and records the theory and the specific measures of the Shang Yang Reform led by Shang Yang in 361bc.
+In the philosophy category, sample chapters were selected from Dao De Jing (The Classic of the Way and Its Power) by Lao Zi (around the 6th century bc) which is regarded as one of the core texts of the Chinese way of thinking known as Daoism. Sample texts were also taken from Lun Yu (The Analects) by Kong Zi (551 bc-479 bc) and from Meng Zi (Mencius) by Meng Zi (372 bc-289 bc). All these provide rich sources of prose texts of early Archaic Chinese.
+The science and technology category includes Meng Xi Bi Tan (Notes Written at Mengxi) by Shen Kuo (1029-1093) which is the first book written in China about science and technology and records scientific discoveries that the ancient Chinese had made in almost all sciences. There is also Tian Gong Kai Wu (Exploration of the Works of the Nature) by Song Yingxing (1587-1644?) which is known as the first comprehensive book written in the world about agricultural and handicraft productions.
+The travelogue category includes Xu Xia Ke You Ji (Travel Notes of Xu Xia Ke) by Xu Hongzu (1613-1632) in the Ming Dynasty. In the warfare category there is Sun Zi Bing Fa (The Arts of War) by Sun Wu around the 6th century bc, the first book written in China about warfare.
+As the summary above suggests, SCC mainly contains written textual materials from all the time periods in the history of the Chinese language. However two types of spoken-like data are included. One is a drama/play Dou’e Yuan (Dou’s Case of Injustice) by Guan Hanqing (1271-1368), a famous playwright in the Yuan Dynasty. The other is the Medieval Chinese text Zhu Zi Yu Lei (Classified Quotations of Zhu Zi) by Zhu Xi (1130-1200), the most influential Chinese philosopher since the time of Confucius and Mencius. The text is characteristic of sermons and dialogues in the vernacular and represents Zhu Xi’s actual speech as recorded by his disciples. Texts like these are generally regarded by scholars as a reflection of planned monologue study that represents, if not truly natural speech, some of the most ‘spoken-like’ registers (Halliday, 1991) available from earlier historical periods (Biber et. al., 1998). We believe that it is important to include such texts in SCC because they will provide researchers with useful comparative data for the analysis of written registers.
+There are also a small number of translation texts in SCC such as the translation of a religious text Jin Gang Jing (The Diamond Sutra), a Buddhist scripture discovered in 1907 inside the Mogao Caves, from the Tang Dynasty (618-907). During the early Tang dynasty the monk Xuan Zang went to Nalanda and other important sites to bring back scriptures. The Tang capital of Chang’an (today’s Xi’an) became an important centre for Buddhist ideology. From there Buddhism spread to Korea and Japan. There is evidence in the text that Buddhist thought began to merge with Confucianism and Daoism, due in part to the use of existing Chinese philosophical terms in the translation of Buddhist scriptures. The Diamond Sutra was the first dated example of printed translation texts. Given that these translation texts were written by highly-educated people and represented vernacular language used and spoken at the time, we believe that the use of these translations texts will not affect first language quality and that their inclusion in SCC is justified.
+The texts for the first expansion stage of SCC were selected to cover most of the genres and time periods. For this stage, easy availability of error-free texts in electronic form that are significant in the Chinese language as a whole was an important criterion. As the first-stage texts would be used to develop the annotation system we concentrated on classic texts that were significant in themselves in their time periods and had a lasting effect on subsequent writings. One example, the Shang Shu or Shu Jing (The Classic of History), a collection of documents and speeches alleged to have been written by rulers and officials of the early Zhou period and before, contains the best examples of early Chinese prose. The writings of Meng Zi (372 bc-289 bc), along with others, contain extensive use of comparisons, anecdotes and allegories and developed a simpler and more concise prose style noted for its economy of words, which was effectively a template for literary form for the following two thousand years. Similarly the Shi Ji (Records of the Grand Historian) written by Sima Qian (between 145 bc-90 bc) served as a model for historical texts for the following two thousand years. Another example, the Dunhuang Bianwen Ji (A Collection of Dunhuang Popular Narratives) represents a popular form of narrative literature flourishing in the Tang dynasty (618-907), and was crucially important for the development of fiction in Chinese literature as ‘the predecessors of the later popular short stories’ (Průšek, 1970:240; also see Ma, 1976). The famous eighteen-century romantic fiction Hong Lou Meng (Dream of the Red Chamber) established a lasting vernacular style and is widely regarded as a master work in Chinese literature. The crucial and complex question of balancing text samples in different genres and time periods will be a dominant aspect of the second expansion stage.
+
+Text classification codes
+Classification codes for texts have the form X-Y-Z where X denotes the time period, Y the genre and Z the text number in that category. For example, 2-I-01 is the first text in the genre ‘History’ in the second time period (Western Han and Eastern Han 206bc-ad220).
+
+Texts and file names
+The following is the title list of texts from which sample chapters have been included in the corpus, and text file names show the content of the genres in the three sub-corpora of SCC at the end of the first-phase expansion. The list is organised to show how different texts and text files relate to sub-corpora and different time periods in a sequence of: classification code, the title of text, English transliteration of the title in brackets, author/editor name (if there is one), author/editor Pinyin name and dates followed by the sampled chapter numbers from the text.
+
+Archaic Chinese (AC, 12thBC-AD220)
+Pre-Qin (12thbc-206bc)
+1-I-01《尚書》or《書經》(The Classic of History) (the 4th century bc or earlier) (Chs1-3)
+1-J-01《商君書》(The Book of Lord Shang) by 商鞅 (Shang Yang, 390bc-338bc) (Chs1 -8)
+1-L-01《中庸》(The Doctrine of the Mean) by 孔子, (Kong Zi, 551bc-479bc) (Chs1-33)
+1-L-02《大學》(The Great Learning) by 孔子 (Kong Zi, 551bc-479bc) (Chs1-8)
+1-L-03《論語》 (The Analects) by孔子 (Kong Zi, 551bc-479bc) (Chs1-10)
+1-L-04《孟子》(Mencius) by 孟子(Meng Zi, 372bc-289bc) (Chs1-6)
+1-L-05《道德經》(The Classic of the Tao and Its Virtue) by 老子 (Lao Zi, during 770bc-476bc) (Chs1-81)
+1-Q-01《孫子兵法》(The Arts of War) by 孫武 (Sun Wu, 6th century bc) (Chs1-13)
+
+Western Han and Eastern Han (206bc-ad220)
+2-A-01《論衡》(Balanced Enquires) by 王充 (Wang Chong, 27-97?) (Chs1-9)
+2-I-01 《史記》(Records of the Grand Historian) by 司馬遷 (Sima Qian, between 145bc-90bc) (Chs1-2 & 23-24)
+
+Medieval Chinese (MedC, 220-1368)
+Wei, Jin and Southern-Northern Dynasties (220-581)
+3-I-01《三國志魏書》(Records of the Three Kingdoms: The Book of Wei) by陳壽 (Chen Shou, 233-297) (Vol.1:1)
+3-I-02《三國志吳書》(Records of the Three Kingdoms: The Book of Wu) by 陳壽 (Chen Shou, 233-297) (Vol.46:1; Vol.47:2)
+3-I-03《三國志蜀書》(Records of the Three Kingdoms: The Book of Shu) by 陳壽 (Chen Shou, 233-297) (Vol.31:1; Vol.32:2)
+3-N-01《金剛般諾波羅蜜經》(The Diamond Sutra or The Sutra of the Perfection of Wisdom of the Diamond that Cuts through Illusion) translated by 三藏法師鳩摩羅什 (Kumarajiva, also known as Kumarajive whip or Yukio Cat recipes, 334-413 or 350-409)
+
+Sui, Tang and Five Dynasties (581-979)
+4-A-01《敦煌變文集》(A Collection of Proses at Dunhuang) (Tang, 618-907) (Vol.1:1; Vol.3:1-2)
+4-G-01《東城老父傳》(Biographical Sketch of the Old Gentleman in Dong Cheng) by陳鴻 (Chen Hong, between 766-820)
+4-G-02《柳毅傳》(Biographical Sketch of Liu Yi) by李朝威 (Li Chaowei, from 763-779 to 806-824)
+4-G-02《霍小玉傳》(Biographical Sketch of Huo Xiaoyu) by蔣防 (Jiang Fang, between 766-820)
+4-H-01《貞觀政要》(Administrative Principles of Zhenguan Reign) by吳兢 (Wu Jing, 670-749 ) (Vol.1:1-2; Vol.2:3)
+4-M-01《唐詞》(Ci-poems in the Tang Dynasty) (618-907) (14)
+4-M-02《五代詞》 Ci-poems in the Five Dynasties (907-979) (23)
+
+Song and Yuan (960-1368)
+5-A-01 《太平廣記》(Extensive Records of the Taiping Era) by李昉等 (Li Fang, et. al., 925-996) (Chs1-3)
+5-B-01《倩女離魂》(Qiannu Parted with Her Soul) by鄭光祖 (Zheng Guangzu, 1260-1320)
+5-B-02《竇娥冤》(The Injustice Done to Dou E or Snow in Midsummer) by關漢卿 (Guan Hanqing, 1271-1368)
+5-L-01《朱子語類》(Classified Conversations of Master Zhu) by黎靖德 (Li Jingde, 1270 ) (Ch12)
+5-M-01《宋詞》(Ci-poems in the Song Dynasty) (between 960-1279) (41)
+5-O-01《夢溪筆談》(Notes Written at Mengxi) by沈括 (Shen Kuo, 1029-1093) (Chs1-3)
+
+Modern Chinese (ModC, 1368-1911)
+Ming (1368-1644)
+6-C-01《二刻拍案驚奇》(Two Collections of Striking the Table in Amazement) by淩蒙初 (Ling Mengchu, 1580-1644) (Chs1-2)
+6-C-02《喻世明言》(Words to Instruct the World) by馮夢龍 (Feng Menglong, 1574-1645) (Ch1)
+6-C-03《警世通言》(Words to Warn the World) by馮夢龍 (Feng Menglong, 1574-1645) (Chs1-2)
+6-C-04《醒世恒言》(Words to Awaken the World) by馮夢龍 (Feng Menglong, 1574-1645) (Ch1)
+6-D-01《三國演義》(Romance of the Three Kingdoms) by羅貫中 (Luo Guanzhong, 1330-1400) (Chs1-2)
+6-D-02《水滸傳》(Water Margin or Outlaws of the Marsh) by施耐庵 (Shi Nai’an, 1574-1645) (Chs2 & 7)
+6-E-01《西遊記》(A Journey to the West) by吳承恩 (Wu, Cheng’en, 1500-1582) (Chs1-2)
+6-O-01《天工開物》(Exploration of the Works of the Nature or Chinese Technology in the 17th Century) by宋應星 (Song Yingxing, 1587-1644?) (Chs1-4)
+6-P-01《徐霞客遊記》(Travel Notes of Xu Xiake) by徐弘祖 (Xu Hongzu, 1613-1632) (Chs1-4)
+
+Qing (1644-1911)
+7-C-01《儒林外史》(The Scholars) by吳敬梓 (Wu Jingzi, 1701-1754) (Chs1 & 8)
+7-E-01《聊齋志異》(Strange Tales of Liao Zhai) by 蒲松林 (Pu Songlin, 1640-1715) (Chs1-5)
+7-E-02《鏡花緣》(Flowers in a Mirror) by李汝珍 (Li Ruzhen, 1763-1830) (Chs1-4)
+7-F-03《紅樓夢》(A Dream of Red Chamber) by曹雪芹 (Cao Xueqin, 1715-1763) (Chs1-2)
+
+Inclusion of texts in different time periods is based on original dates of production of texts rather than the printed dates some old texts bear. For example, a copy of The Diamond Sutra or The Sutra of the Perfection of Wisdom of the Diamond that Cuts through Illusion, which teaches the practice of the avoidance of abiding in extremes of mental attachment, was found sealed in a cave in China in the early 20th century, has a printed date of 868 CE. However it was translated by Kumarajiva (334 years - 413 years, 350 years, said one - 409), also known as Kumarajive whip or Yukio Cat recipes, a high priest in the Southern-Northern Dynasties. Therefore we decided to include it in the second time period of the corpus - Wei, Jin & Southern-Northern Dynasties (220-581) – to make sure that the language used represents the period when the text was translated and written.
+
+Search and analysis tool
+
+Overview of the possibilities of the search tool
+The SCC integral search and analysis tool enables users to specify a search item and then locate and display all occurrences of that item in the whole or specified parts of the corpus. Frequency tables that display the total number of occurrences and their distribution in the specified parts of the corpus are automatically displayed.
+A search specification has two elements: the item specification and the range specification. The item specification consists of up to 5 characters or up to 5 of the corpus word classes or any combination of the two in any order. Thus the user can search for a single word or a phrase, or for a particular word class, or for a particular sequence of word classes containing a particular character and so on. Word classes can optionally be restricted to categories. Naturally only search items entirely within lines of texts will be found.
+The search range can be restricted to a sub-corpus, to a time period and to a particular genre.
+Search results are displayed automatically. They show the total number of occurrences of the search item in the search range specified, and the distribution of those occurrences in the various parts of the corpus in the search range. The distribution of occurrences in those texts that are involved is also displayed.
+The search tool is very simple to use and as it is designed for, and is an integral part of, the corpus it is immediately available and no preliminary procedures are needed. More sophisticated features will be added to research tool at the second expansion stage of the corpus. In particular at this stage statistical analysis of search results has to be done separately by the user.
+
+Methodology of the search tool
+This functionality is presently implemented via a relational database which contains a record of every character, its position in the texts and the word classes to which it belongs. This database is generated automatically from our XML files, using SAXONi. All searches available on the current site are implemented via Standardised Query Language (SQL) and Java Server Pages (JSP). We chose JSP technology chiefly because of its entirely UTF-8 compliant architecture and ability to integrate with the various Java tools used in the creation of the corpus. Hence the aim is that researchers can use the in-house search and analysis tool that is an integral part of SCC. We believe that the improvement of the integral search and analysis tool at this stage is both important and necessary because it has made it possible for researchers to carry out complex searching and analysis of SCC remotely, via a simple Web interface. We will of course consider the use of different retrieval and analysis tools as our project continues to expand, for instance, the XML Aware Indexing and Retrieval Architecture (XAIRA)ii concordancing engine employed by, for example, LCMC (McEnery and Xiao, 2004; Xiao et al., 2004).
+
+Using the search tool
+A single left click on the search button brings the search specification page to the screen.
+Each row of the search specification deals with one of the seven component parts of a potential search: character, word class, category, word length, sub-corpus, time period and genre, as indicated. The first four rows specify the item; the last three rows specify the range. Category and word length restrict the syntactic range of the search item; sub-corpus, time period and genre restrict the search range within the corpus. Characters are set directly by the user; other components are set using pull-down menus. At least one character or one word class or one category must be set. All other components are optional with 'all' as the default setting.
+Characters: one character only can be put in each box, so a search for a character string of up to five characters can be made. For strings of less than five characters any boxes can be used (but see also word class). The search locates only character strings in the same order they appear in the boxes from left to right.
+Word classes: a search can be made for all the occurrences of a word class (from the corpus tag set of word classes) or a string of up to five word classes (in the specified order left to right).
+Category: a search for the occurrences of a word class can also be further restricted to a category within that word class. To restrict a search to two or more categories of the same word class it is necessary to make individual separate searches for each category involved. The same is true with word classes and characters. Thus a search item consists of one to five components in order, any or all of which can be a character or a word class or a category or any mixture or combination of the three.
+Word length: the marked-up texts in the corpus are stored as a sequence of 'tagged fragments' corresponding to the original unmarked raw text separated into individual syntactic fragments tagged by their word class/category. Tagged fragments consist of one or more characters. By specifying the word length of any of the (up to five) components of the search item the user restricts the search to tagged fragments of exactly that number of characters. The range of word lengths that can be specified is 1 to 6. If a specified word length is incompatible with the item component, for example, word length 2 specified for a single character then no search items will be found.
+Sub-corpus, time period and genre are specified as desired from the pull-down menus. Searches restricted to more than one sub-corpus, time period or genre have to be done separately.
+Search results display
+
+When you have specified the search item and the search range, left click on the ‘Search’ button at the bottom. Your search results will automatically be displayed.
+The search results display consists of two main parts: the actual content of the search and a summary of search results. The search content consists of every line of text in which the search item occurs in the specified range. In each case the complete line of text is displayed together with the text and time period in which it occurs.
+The search results summary consists of four tables giving the proportions of the search results in: different sub-corpora, different time periods, different genres and the different texts involved.
+Familiarisation with the search tool is easily done by experimenting.
+
+Next phase of expansion
+
+A crucial and dominant aspect of the second expansion stage will be to improve the balance of distribution of texts of different genres in different time periods of the three sub-corpora.
+Another aspect at the second stage will be further development of the mark-up procedure, in particular systematic testing to ensure that the tagging system is consistent and reliable.
+We have not ruled out conversion from our proprietary scheme into a more widely used standard in the future, using an automated process based on XSLT (eXtensible Stylesheet Language Transformations). In particular, we feel that the Text Encoding Initiative (TEI) guidelines on Linguistic Segment Categories (See http://www.tei-c.org.uk/P5/Guidelines/AI.html#AILC) may prove to be appropriate.
+If funding is available, we will add simplified character versions of the texts and provide more parallel English translation texts.
+More sophisticated features will be added to the search tool.
+Suggestions and comments from users, on any aspect of the corpus, are welcome.
+
+Administration and registration
+
+To use the corpus, researchers complete the authentication page on the website.
+Authentication:	Name
+Title
+Affiliation
+Address
+E-mail
+
+Copyright
+
+Copyright in the transcription, metadata, and design and content of webpages is owned by the University of Sheffield. If you employ SCC in the course of your research, you should cite the references as Hu, et al. (2005) and Hu, et al. (2007). You should also inform us about the publication details of your research based on the corpus by contacting Xiaoling Hu at the following address: Floor 5, The Arts Tower, Western Bank, Sheffield S10 2TN, UK and E-mail: x.l.hu@sheffield.ac.uk.
+We would like to thank the following copyright holders: the University of California Press and The Chinese University Press in Hong Kong, for giving us permission to use excerpts from their publications and thank the following websites: www.shuku.net, www.guoxue.com and www.chinapage.com/china.html for providing some of the selected texts. We also thank our research assistants, especially Li Shen and Xuan Zheng, for proofreading the electronic texts. We owe our thanks to Hsien-Yi Yang and Gladys Young for allowing us to use excerpts from their English translation. We are also indebted to Nigel Williamson, who was the project manager for the pilot study.
+
+Information about the corpus
+
+Information about the corpus is available from:
+
+School of East Asian Studies
+University of Sheffield
+Floor 5
+The Arts Tower
+Western Bank
+Sheffield S10 2TN
+UK
+E-mail: x.l.hu@sheffield.ac.uk
+URL: http://www.sheffield.ac.uk/scc
+Telephone: +44 114 222 8421
+Fax: +44 114 222 8432
+
+Humanities Research Institute
+University of Sheffield
+34 Gell Street
+Sheffield S3 7QY
+UK
+E-mail: j.mclaughlin@sheffield.ac.uk
+URL: http://www.hrionline.ac.uk/scc/
+Telephone: +44 114 222 9892
+Fax: +44 114 222 9894
+
+The Oxford Text Archive
+Oxford University Computing Services
+13 Banbury Road
+Oxford OX2 6NN
+UK
+E-mail: info@ota.ahds.ac.uk
+URL: http://info.ox.ac.uk/~archive
+Telephone: +44 1865 273238
+Fax: +44 1865 273275
+
+Contact us
+
+We can be contacted in any of the following ways:
+
+By Post:
+Dr. Xiaoling Hu
+School of East Asian Studies
+University of Sheffield
+Floor 5
+The Arts Tower
+Western Bank
+Sheffield S10 2TN
+UK
+Telephone: 0044 114 222 8421
+Fax: 0044 222 8432
+E-mail: x.l.hu@sheffield.ac.uk
+
+References:
+
+Biber, D., Conrad, S. and Reppen R. (1998). Corpus linguistics: investing language structure and use. Cambridge: Cambridge University Press.
+Chou, F. (1962). Zhongguo gudai yufa: gouci bian (Archaic Chinese grammar). Academia Sinica, Institute of History of Philology, Monograph No. 39.
+Dobson, W. A. C. H. (1959). Late Archaic Chinese. Toronto: University of Toronto Press.
+Dobson, W. A. C. H. (1962). Early Archaic Chinese. Toronto: University of Toronto Press.
+Dunning, A. (2006). The tasks of the AHDS: ten years on. Ariadne 48, July 2006, http://www/ariadne.ac.uk/issue48/dunning/.
+Hanan, P. (1981). The Chinese vernacular story. London: Harvard University Press.
+Hu, X., Williamson, N. and McLaughlin, J. (2005). Sheffield Corpus of Chinese for diachronic linguistic study. Literary and Linguistic Computing, 20(3): 281-93.
+Hu, X., McLaughlin, J. and Williamson, N. (2007). Syntactic positions of prepositional phrases in the history of Chinese: using the developing Sheffield Corpus of Chinese for diachronic linguistic study. Literary and Linguistic Computing, 22(4): 419-34.
+Kennedy, G. (1998). An introduction to corpus linguistics. London: Longman.
+Leech, G. (1992). Corpora and theories of linguistic performance, in J. Svartvik (ed.) Directions in corpus linguistics: 105-22. Berlin: Mouton de Gruyter.
+McEnery, A. and Xiao, Z. (2004). The Lancaster Corpus of Mandarin Chinese: a corpus for monolingual and contrastive language study. Proceedings of the Fourth International Conference on Language Resources and Evaluation (LREC) 2004, 1175-78. Lisbon, May 24-30, 2004.
+Peyraube, A. (1996). Recent issues in Chinese historical syntax, in Huang, C.-T. J. and Li, Y.-H. A. (eds.), New horizons in Chinese linguistics. Studies in Natural Language and Linguistics Theory 35. London, Dordrecht and Boston: Kluwer.
+Reppen, R., Fitzmaurice, S. M. and Biber, D. (eds.) (2002). Using corpora to explore linguistic variation, Studies in Corpus Linguistics. Amsterdam/Philadelphia: John Benjamins.
+Sinclair, J. (1991). Corpus, concordance, collocation. Oxford: OUP.
+Thomas, J. and Short, M. (eds.) (1996). Using corpora for language research. London: Longman.
+Wang, L. (1958). Hanyu shigao (A draft history of Chinese grammar). Beijing: Kexue Chubanshe.
+Xiao, Z., McEnery, A., Baker, P. and Hardie, A. (2004). Developing Asian language corpora: standards and practice. Proceedings of the 4th Workshop on Asian Language Resources, pp. 1-8. March 25, 2004, Sanya, China.
+
+i See http://www.saxonica.com
+ii See www.oucs.ox.ac.uk/rts/xaira/
+
+
+
+- 19 -
